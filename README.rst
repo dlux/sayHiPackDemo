@@ -1,40 +1,48 @@
 Say Hi Program
-==============
+=====================
 
 Basic say hi python program, packaged and ready to be installed.
 
 Package Structure
-.
-├── demo
-│   ├── cmd                 
-│   │   ├── __init__.py
-│   │   ├── say_hi.py       <- Main python module
-│   ├── __init__.py
-│   └── test
-│       ├── __init__.py
-│       └── test_sayhi.py   <- Unit test file
-├── README.rst
-├── requirements.txt        <- Package requirements
-├── setup.py                <- To build, distribute, & install the module
-└── test_requirements.txt 
 
+.. code-block:: bash
 
-========
+  sayHiPackDemo
+  ├── demo
+  │   ├── __init__.py
+  │   ├── cmd
+  │   │   ├── __init__.py
+  │   │   ├── say_hi.py       <- Main python module
+  │   └── tests
+  │       ├── __init__.py
+  │       └── test_sayhi.py   <- Unit testing file
+  ├── README.rst
+  ├── requirements.txt        <- Package requirements
+  ├── setup.py                <- To build, distribute, & install 'dluxsay' package
+  └── test_requirements.txt
+
+============
 Installation
-========
+============
+
 Clone the repository
+
 .. code-block:: bash
 
   $ git clone https://github.com/dlux/sayHiPackDemo.git 
 
 Install package from src
+
 .. code-block:: bash
+
   $ pip install -e ./sayHiPackageDemo
   # To verify instalation:
   $ pip list | grep dluxsay
 
 Using installed module
+
 .. code-block:: bash
+  
   $ dluxsay
   Hi Stranger
 
@@ -47,11 +55,15 @@ Using installed module
   Sum is = 50
 
 Uninstall package
+
 .. code-block:: bash
+
   $ pip uninstall dluxsay
 
 Create an installation egg
+
 .. code-block:: bash
+
   $ python ./sayHiPackageDemo/setup.py sdist
 
 
