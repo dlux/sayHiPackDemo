@@ -24,19 +24,19 @@ class SayHiClass(object):
     def hi(self, name='Stranger'):
         hi = ("Bonjour","Hello", "Hi", "Hola", "Ni hao")
         
-        print "{0} {1}".format(random.choice(hi), name)
+        print('{0} {1}'.format(random.choice(hi), name))
 
     def a_sum(self, values):
         try:
             values = map(int, values)
         except:
-            print "Skiping due to invalid entry {0}".format(values)
+            print ("Skiping due to invalid entry {0}".format(values))
             sys.exit(2)
 
         result = 0
         for num_ in values:
             result = result + num_
-        print "Sum is = {0}".format(result)
+        print ("Sum is = {0}".format(result))
 
 
 def main():

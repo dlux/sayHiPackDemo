@@ -1,6 +1,10 @@
 '''
-Unit test for SayHiClass son src
+Unit test for SayHiClass on src
 
+To run:
+python -m unittest demo.tests.test_sayhi
+OR
+python -m unittest discover
 
 @author: luzC
 '''
@@ -11,7 +15,7 @@ from  demo.src.say_hi import SayHiClass
 class SayHiTestCase(unittest.TestCase):
 
     def setUp(self):
-        print "Unit test case setup"
+        print ("Unit test case setup")
         super(SayHiTestCase, self).setUp()
         self.say = SayHiClass()
 

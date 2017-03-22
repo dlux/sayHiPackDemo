@@ -18,7 +18,8 @@ Package Structure
   │       └── test_sayhi.py   <- Unit testing file
   ├── README.rst
   ├── requirements.txt        <- Package requirements
-  ├── setup.py                <- To build, distribute, & install 'dluxsay' package
+  ├── setup.cfg               <- Description of the package for PBR 
+  ├── setup.py                <- To build, distribute, & install 'dluxsay' package VIA PBR
   └── test_requirements.txt
 
 ============
@@ -67,7 +68,8 @@ Create an installation egg
   $ python ./sayHiPackageDemo/setup.py sdist
 
 
-Further information on setuptools 
+Further information on setuptools
 https://pythonhosted.org/setuptools/setuptools.html
-
+Further information on pbr
+https://docs.openstack.org/developer/pbr
 
