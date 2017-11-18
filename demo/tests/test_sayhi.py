@@ -1,6 +1,10 @@
 '''
-Unit test for SayHiClass son src
+Unit test for SayHiClass on src
 
+To run:
+python -m unittest demo.tests.test_sayhi
+OR
+python -m unittest discover
 
 @author: luzC
 '''
