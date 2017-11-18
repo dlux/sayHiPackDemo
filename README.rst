@@ -1,6 +1,8 @@
 Say Hi Program
 =====================
 
+PBR ENABLED INSTALLATION
+
 Basic say hi python program, packaged and ready to be installed.
 
 Package Structure
@@ -36,9 +38,9 @@ Install package from src
 
 .. code-block:: bash
 
-  $ pip install -e ./sayHiPackageDemo
+  $ pip install ./sayHiPackageDemo
   # To verify instalation:
-  $ pip list | grep dluxsay
+  $ pip freeze | grep dluxsay
 
 Using installed module
 
