@@ -10,26 +10,26 @@ Package Structure
 
 .. code-block:: bash
 
-sayHiPackDemo
-├── dluxsay
-│   ├── __init__.py
-│   ├── say_hi.py           <- Main python module
-│   └── tests
-│       ├── __init__.py
-│       └── test_sayhi.py   <- Unit testing file
-├── doc
-│   ├── build               <- Renderized documentation (HTMLs)
-│   ├── Makefile            <- Executable to build the docs 'make html'
-│   └── source
-│       ├── conf.py         <- Sphinx configuration file
-│       ├── index.rst       <- Main top node
-│       ├── _static
-│       └── _templates
-├── LICENSE
-├── README.rst
-├── requirements.tx         <- Package requirements
-├── setup.cfg               <- Description of the package for PBR
-└── setup.py                <- To build, distribute, & install 'dluxsay' package VIA PBR
+  sayHiPackDemo
+  ├── dluxsay
+  │   ├── __init__.py
+  │   ├── say_hi.py           <- Main python module
+  │   └── tests
+  │       ├── __init__.py
+  │       └── test_sayhi.py   <- Unit testing file
+  ├── doc
+  │   ├── build               <- Renderized documentation (HTMLs)
+  │   ├── Makefile            <- Executable to build the docs 'make html'
+  │   └── source
+  │       ├── conf.py         <- Sphinx configuration file
+  │       ├── index.rst       <- Main top node
+  │       ├── _static
+  │       └── _templates
+  ├── LICENSE
+  ├── README.rst
+  ├── requirements.tx         <- Package requirements
+  ├── setup.cfg               <- Description of the package for PBR
+  └── setup.py                <- To build, distribute, & install 'dluxsay' package VIA PBR
 
 
 Installation
@@ -118,6 +118,9 @@ Add RST documentation files on doc/source folder.
   $ python -m SimpleHTTPServer 8000
 
 Open http://localhost:8000 on a browser
+
+Some References
+---------------
 
 Further information on setuptools
 https://pythonhosted.org/setuptools/setuptools.html
