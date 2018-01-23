@@ -17,6 +17,7 @@ setup(
     test_suite='demo.tests',
     keywords = ['dlux', 'say_hi', 'hello_world', 'mypackage'],
 
+    install_requires = ['coverage>=3.6'],
     # Additional metadata
     classifier = [
         'Development Status :: 4 - Beta',
